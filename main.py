@@ -117,7 +117,7 @@ def listen():
         return False
 
 
-# 调用百度UNIT智能对话系统,网址：https://ai.baidu.com/unit/v2?_=1564550428397#/servicesecondary/S20796/waifu/serviceskill
+# 调用百度UNIT智能对话系统,网址：https://ai.baidu.com/unit/
 # API配置参数
 headers = {'Content-Type': 'application/json'}
 access_token = 'your Token'
