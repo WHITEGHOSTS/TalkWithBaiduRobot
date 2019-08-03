@@ -128,7 +128,7 @@ def baidu_unit(text_words):
     post_data = "{\"bot_session\":\"\",\"log_id\":\"7758521\",\"request\":{\"bernard_level\":1, " \
                 "\"client_session\":\"{\\\"client_results\\\":\\\"\\\", \\\"candidate_options\\\":[]}\"," \
                 "\"query\":\"" + text_words + "\",\"query_info\":{\"asr_candidates\":[],\"source\":\"KEYBOARD\"," \
-                                              "\"type\":\"TEXT\"},\"updates\":\"\",\"user_id\":\"UNIT_DEV_救赎749\"}," \
+                                              "\"type\":\"TEXT\"},\"updates\":\"\",\"user_id\":\"UNIT_DEV_你的百度账号昵称\"}," \
                                               "\"bot_id\":\"71625\",\"version\":\"2.0\"}"
 
     request = urllib.request.Request(url, data=post_data.encode('utf-8'), headers=headers)
