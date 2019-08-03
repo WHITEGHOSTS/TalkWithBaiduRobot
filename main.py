@@ -90,9 +90,9 @@ def on_press(key):
 
 # 音频文件转文字：采用百度的语音识别python-SDK。网址：https://ai.baidu.com/tech/speech
 # 百度语音识别API配置参数
-APP_ID = '16914980'
-API_KEY = 'jQMrvm7Ke7Nwgs63gLtTTztE'
-SECRET_KEY = 'yDEV2ssS24rB5fdYWBva7Yxlp0b6ABtQ'
+APP_ID = 'your AppId'
+API_KEY = 'your ApiKey'
+SECRET_KEY = 'your SecretKey'
 client = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
 path = 'voices/myvoices.wav'
 
@@ -120,7 +120,7 @@ def listen():
 # 调用百度UNIT智能对话系统,网址：https://ai.baidu.com/unit/v2?_=1564550428397#/servicesecondary/S20796/waifu/serviceskill
 # API配置参数
 headers = {'Content-Type': 'application/json'}
-access_token = '24.9bc44bc33e8d3d253054a3ce9e01ea60.2592000.1567332982.282335-16942696'
+access_token = 'your Token'
 url = 'https://aip.baidubce.com/rpc/2.0/unit/bot/chat?access_token=' + access_token
 
 
